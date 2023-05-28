@@ -8,7 +8,7 @@ body {
 }
 
 body.modo-escuro {
-	
+	background:url(../imagens/noite.png) ;
 	color: #f5f5f5;
 }
 
