@@ -2,12 +2,13 @@ body {
 	font-family: 'Poppins', sans-serif;
 	max-width: 1280px;
 	margin: 0 auto;
-	background-color: #5e5b5bad;
-	color: #333333;
+	background-image: url(../imagens/poke.png);
+	background-size: cover;
+	color: white;
 }
 
 body.modo-escuro {
-	background-color: #212121;
+	
 	color: #f5f5f5;
 }
 
@@ -47,7 +48,7 @@ main .listagem-pokemon {
 }
 
 main .cartao-pokemon {
-	background-color: #d8e3ec;
+	background-color: #00968880;
 	width: 200px;
 	padding: 15px;
 	display: flex;
@@ -63,7 +64,8 @@ main .cartao-pokemon:hover {
 }
 
 .modo-escuro .cartao-pokemon {
-	background-color: #a8a8a8;
+	background-color: #000000ad;
+
 }
 
 main .cartao-pokemon .informacoes {
@@ -95,23 +97,24 @@ main .cartao-pokemon .tipo {
 }
 
 .grama {
-	background-color: #7ac74c;
+	background-color: #8bc34a8a;
 }
 
 .veneno {
-	background-color: #df67ddfb;
+	background-color: #9c27b082;
 }
 
 .fogo {
-	background-color: #ee8130;
+	background-color: #ff980096;
 }
 
 .agua {
-	background-color: #6390f0;
+	background-color: #122ae09e;
 }
 
 .inseto {
-	background-color: #a6b91a;
+	background-color: #ffeb3bba;
+	
 }
 
 main .descricao {
